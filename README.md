@@ -65,3 +65,39 @@ All program need you to *Define/Declare* variables before you can use it, this i
 var Z = 1
 ```
 then the complier will automatically assign an *Storage/Memory address* for you to use with a label Z in this case since it is always hard to memoried the physical address of memory (i.e. 00000000 10001010 instead of Z) :smile:
+
+#### ~ Function ~
+
+A *FUNCTION* is actually a combination of line of code that perform a specific functions like a function for cook noodle, in real life to cook a noodle may need the following steps:
+```
+1 Find the noodle I want in storage
+2 Take off the packing
+3 take out the pod
+4 put water in the pod
+5 boil water
+6 put in noodle after water boiled
+7 wait for 5 minute
+8 taste if the noodle is ready or cook longer
+9 put noodle in my choice of bowl
+10 deliver the noodle
+```
+then the function CookNoodle can make our coding life easier by making a function:
+```
+1 function CookNoodle(WHO,FAVIOUR,BOWL){
+2       ask WHO to do the task, (pi in this case)
+3       Find the noodle I want in storage (FAVIOUR)
+4       Take off the packing
+5       take out the pod
+6       put water in the pod
+7       boil water
+8       put in noodle after water boiled
+9       wait for 5 minute
+10      taste if the noodle is ready or cook longer
+11      put noodle in my choice of bowl (BOWL)
+12 }
+```
+A *Library* is a collection of functions, say a Math library may have random, roundup, squareroot functions.
+
+As I mentioned before, people in this world is very strange, they like to use fancy word to show they are different from others but sometime these action make people new to this trade confuse a lot. Whenever you see DLL (dynamic link library), API etc, actually they are all library, a collection of functions. Dont be scared by them.
+
+Also those Object Oriented program is just a conceptal different with traditional programming, it only help people to think more logically when coding (which I dont think so) and make simple task more complicated to complete, code harder to understand etc. But eventually, all code will be translated back to Machine Code for computer to run.
