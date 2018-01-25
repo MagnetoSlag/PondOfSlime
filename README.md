@@ -118,4 +118,4 @@ Field 4 Book Price
 Field 5 Book Language
 ......
 ```
-In your Discord bot case, that is 
+In your Discord bot case, that is a *Record* will contains 'Contents', 'Customer', 'Server', 'OrderNumber' or you may need to add a field 'Status' to indicate rather it is claimed or not. In real life, usually record will not be deleted even claimed like in your case, it will usually marked in the 'Status' filed as Claimed, unClaimed, 
