@@ -1,4 +1,4 @@
-# PondOfSlime
+# Pond Of Slime
 ## A little pond where I share some interesting info with CEO
 To make life easier, there are few things I would like to clarifly before we step into the world of computer.
 Some of them you may already know, some may be new to you and some maybe not the same as you knew before.
@@ -13,7 +13,7 @@ Enough BS, now get back on track. To help you better understanding or do whateve
 
 This world is a strange place, most people like to say some Mars language to make them feel good about themself, but not the computer world, actually the world of computer is very simple.
 
-#### HardWare
+#### ~ HardWare ~
 
 - Computer Hardware
 
@@ -33,5 +33,35 @@ This world is a strange place, most people like to say some Mars language to mak
 
 Why waste your time to tell you all these junks? This is because it has huge relationship with computer programming. You may see tons of programming language in this world, Java Script, JSON, Python, C, Basic ..... so on and so on... but to the computer, there is ONE and only *ONE* language (should called **instruction** actually, computer only listen to instruction, not language) called, ***Machine Code***
 
-Remember I told you before that the Processing Unit DONT remember anything? Worst is that the powerful computer nowadays can only do *Add*, *Subtract*, *Shifting* (move bit left and right, you may not know binary yet, computer store information in binary actually not decimal in human world, 1 and 0, if if need to store value 2, then it will need two space, to store 1,0, 10 in binary means 2, not 10 in our world, if you interested in what is binary, you need to do some search in google, I dont go too far off here) and *Moving* data between internatl storage
+Remember I told you before that the Processing Unit DONT remember anything? Worst is that the powerful computer nowadays can only do four things, they are: *Add*, *Subtract*, *Shifting* and *Move* data between storage. (**Note:** Shifting means move bit left and right, you may not know binary yet, computer store information in binary actually not decimal in human world, 1 and 0, if it need to store value 2, then it will need two space, to store 1,0, 10 in binary means 2, not 10 (ten) in our world, if you interested in what is binary, you will need to do some search in google, I dont go too far off here)
 
+Since computer only understand ***Machine CODE***, therefore actually all so-called programming language will finially **complied** back to Machine Code so that the computer can understand and run, no matter how fancy those programming language look like to humanbeings.
+
+For example when you write a JS code:
+```
+var Z = 1 + 2
+```
+will be complied and finially stored physically in memory as machine code:
+```
+1000000 10010100, 10000000 10001010,00000000 00000001, 00000000 00000010
+```
+same machine code will be generated even you write your program in C++ language:
+```
+unsigned short z = 1 + 2;
+```
+or any other kind of programming languages.
+
+The Machine Code above is CPU ***dependent*** (it means iMac and PC will have different no. on same hardware instruction) and first two value (instruction) between comma is an ADD instruction, then followed with a PUSH instruction and then two value 1 and 2, it just tell the CPU to ADD (machine code: 10000000 10010100), PUSH to ***Address***(machine code:10000000 10001010), value 1(00000000 00000001), value 2(00000000 00000010) or in human terms, **add** 1 and 2 together and **move** the result value to memory address 10001010. We simplfily the instruction here for easy understanding, actual machine code is more complex.
+
+As you can see, Machine Code is not for human to understand, therefore, you see tons of programming language around the world. They all serve the same purpose (or claim), to make life easier or to make human easier on expressing their thinking into computer instruction.
+So whenever you see programming language/script, they have a complier program at the backend, no matter they are precomplie or complie in runtime (means complie while the programe is running), the job for a program complier is to translate the code back to Machine Language. While you got all the errors, syntax errors, etc. It doesnt necessary means you are not doing the right job, that is only means the complier dont understand what you are trying to say (this should be the problem of those who develop the computer language like java, c++ etc, because of thier dumb skills and not smart enough, now we need to learn *THEIR* way to program the computer to work, and different programming language have different syntax, different ways to call functions..... so tired of it)
+
+#### ~ Addressing ~
+
+One thing you will need to understand before do programming is ***Addressing***, this is just like an address in real world. If someone need to send you a mail, they need to know your address. In computer world this is refer to **Where to put in memory/storage**, it is just like line 1 column 2 in your paper note book, in the above example may be to ask CEO (CPU) to do a task of adding 1 and 2 together and write down in your paper notebook line 1 column 2.
+
+All program need you to *Define/Declare* variables before you can use it, this is an action of giving a call sign to a Storage address, like:
+```
+var Z = 1
+```
+then the complier will automatically assign an *Storage/Memory address* for you to use with a label Z in this case since it is always hard to memoried the physical address of memory (i.e. 00000000 10001010 instead of Z) :smile:
