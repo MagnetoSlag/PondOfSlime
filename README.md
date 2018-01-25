@@ -100,4 +100,22 @@ A *Library* is a collection of functions, say a Math library may have random, ro
 
 As I mentioned before, people in this world is very strange, they like to use fancy word to show they are different from others but sometime these action make people new to this trade confuse a lot. Whenever you see DLL (dynamic link library), API etc, actually they are all library, a collection of functions. Dont be scared by them.
 
-Also those Object Oriented program is just a conceptal different with traditional programming, it only help people to think more logically when coding (which I dont think so) and make simple task more complicated to complete, code harder to understand etc. But eventually, all code will be translated back to Machine Code for computer to run.
+Also those Object Oriented program is just a conceptual different with traditional programming, it only help people to think more logically when coding (which I dont think so) and make simple task more complicated to complete, code harder to understand etc. But eventually, all code will be translated back to Machine Code for computer to run.
+
+#### ~ Server ~
+
+You may always heard *Server*, what is a server actually? It is a program in a remote computer actually. When you type a URL (web address) in your browser, your browser send a **request** to the remote computer and the *Server* program running in that remote server take the request from you then deliver a web page file from the remote computer harddisk (storage) back to your browser to display. This is why that kind of program called a *Server*. The Server program running at remote computer called *Remote Server*, while the Server program running in your PC called *Local Server*
+
+#### ~ DataBase ~
+
+A database is simply a program to look for information in a file in a storage. (i.e. a file contains information stored in harddisk) For easy finding information or *Records*, usually you will need to define *Fields* for your data record to better serve the purpose:
+```
+Record BooksInfo:
+Field 1 Book Title
+Field 2 Book Author
+Field 3 Book ISBN Number
+Field 4 Book Price
+Field 5 Book Language
+......
+```
+In your Discord bot case, that is 
