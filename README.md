@@ -17,7 +17,7 @@ This world is a strange place, most people like to say some Mars language to mak
 
 - Computer Hardware
 
-  - A computer is a piece of hardware, something you can touch actually, ***ALL*** computer makeup of *Input OutPut Device* and *CPU* no exception as of year 2018! (your phone is a computer too!)
+  - A computer is a piece of hardware, something you can touch actually, ***ALL*** computer makeup of *Input OutPut Device* and *CPU*. No exception as of year 2018! (your phone is a computer too!, even the rice cooker is a computer made up of CPU and Storage!)
   
     - **Input Output Device**, is simply a piece of hardware you interact with a computer, a keyboard is an input device, a monitor is an output decice, a headphone is an output device too!
    
@@ -31,5 +31,7 @@ This world is a strange place, most people like to say some Mars language to mak
         
 ### Why all the BS?
 
-Why wait your time to tell you all these junks? This is because it has hugh relationship with computer programming.
+Why waste your time to tell you all these junks? This is because it has huge relationship with computer programming. You may see tons of programming language in this world, Java Script, JSON, Python, C, Basic ..... so on and so on... but to the computer, there is ONE and only *ONE* language (should called **instruction** actually, computer only listen to instruction, not language) called, ***Machine Code***
+
+Remember I told you before that the Processing Unit DONT remember anything? Worst is that the powerful computer nowadays can only do *Add*, *Subtract*, *Shifting* (move bit left and right, you may not know binary yet, computer store information in binary actually not decimal in human world, 1 and 0, if if need to store value 2, then it will need two space, to store 1,0, 10 in binary means 2, not 10 in our world, if you interested in what is binary, you need to do some search in google, I dont go too far off here) and *Moving* data between internatl storage
 
