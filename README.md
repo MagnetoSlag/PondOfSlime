@@ -104,11 +104,11 @@ Also those Object Oriented program is just a conceptual different with tradition
 
 #### ~ Server ~
 
-You may always heard *Server*, what is a server actually? It is a program in a remote computer actually. When you type a URL (web address) in your browser, your browser send a **request** to the remote computer and the *Server* program running in that remote server take the request from you then deliver a web page file from the remote computer harddisk (storage) back to your browser to display. This is why that kind of program called a *Server*. The Server program running at remote computer called *Remote Server*, while the Server program running in your PC called *Local Server*
+You may always heard about *Server*, what is a server actually? It is a program running in a remote computer. When you type a URL (web address) in your browser, your browser send a **request** to the remote computer and the *Server* program running in that remote server take the request from you then deliver a web page file from the remote computer harddisk (storage) back to your browser to display. This is why that kind of program called a *Server*. The Server program running at remote computer called *Remote Server*, while the Server program running in your PC called *Local Server*
 
 #### ~ DataBase ~
 
-A database is simply a program to look for information in a file in a storage. (i.e. a file contains information stored in harddisk) For easy finding information or *Records*, usually you will need to define *Fields* for your data record to better serve the purpose:
+A database is simply a program to take care or look for information in a file located in a storage. (i.e. a file contains information stored in harddisk) For easy finding information or *Records*, usually you will need to define *Fields* for your data record to better serve the purpose:
 ```
 Record BooksInfo:
 Field 1 Book Title
@@ -118,4 +118,14 @@ Field 4 Book Price
 Field 5 Book Language
 ......
 ```
-In your Discord bot case, that is a *Record* will contains 'Contents', 'Customer', 'Server', 'OrderNumber' or you may need to add a field 'Status' to indicate rather it is claimed or not. In real life, usually record will not be deleted even claimed like in your case, it will usually marked in the 'Status' filed as Claimed, unClaimed, 
+In your Discord bot case, that is a *Record* will contains 'Contents', 'Customer', 'Server', 'OrderNumber' or you may need to add a field 'Status' to indicate rather it is claimed or not. In real life, usually record will not be deleted even claimed, it will usually marked in the 'Status' filed as Claimed, unClaimed, exception, etc.
+
+Therefore, if you can record your transaction with a database, you no need to generate random ordernumber, you can get sequential order number instead. That is also why i asked rather you host you bot (program) in local or remote server.
+
+I will now look for info on Discord bot and accessing database with Discord bot, I will discuss with you later tonight or tomorrow.
+
+# ~ END ~ 
+
+Thank you for reading :blush:
+
+Please feel free to add comments and question if you have.
