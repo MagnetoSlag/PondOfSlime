@@ -7,4 +7,4 @@ Ofcause, if you dont want to read, just move onto your js is ok.
 ### READ READ READ READ the god damn book!
 Please execuse me for my poor English proficiency, as you always know, my English SUCKS....
 
-*Read the god damn book!* is what I always heard from my college teacher. He once said, reading non-friction is boring, especially something technical or something you simply have no interest in.
+*Read the god damn book!* is what I always heard from my college teacher. He once said, reading non-friction is boring, especially something technical or something you simply have no interest in. But reading, is a must. This is the door way to open a whole new world. Later when you growth up, reading those insurance policy, college prospectus will make you fainted in just 3 sec. however, you **MUST** read and read in detail because that will save your life a million times in the future and you wont regert reading it at the firs time.
