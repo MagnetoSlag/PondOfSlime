@@ -17,7 +17,7 @@ This world is a strange place, most people like to say some Mars language to mak
 
 - Computer Hardware
 
-  - A computer is a piece of hardware, something you can touch actually, *ALL* computer makeup of *Input OutPut Device* and *CPU*
+  - A computer is a piece of hardware, something you can touch actually, ***ALL*** computer makeup of *Input OutPut Device* and *CPU* no exception as of year 2018! (your phone is a computer too!)
   
     - **Input Output Device**, is simply a piece of hardware you interact with a computer, a keyboard is an input device, a monitor is an output decice, a headphone is an output device too!
    
@@ -28,4 +28,8 @@ This world is a strange place, most people like to say some Mars language to mak
       - **Storage**, Storage is where the CPU storage information, it is just like the plate to hold food when you do cooking and another plate after you do cooking. To hold information rather it is temporary or for a long period of time. Simply remember, CPU DONT remember anything! it just process data, like if you want the computer to do calculation 1 + 2, you will need a storage to store the value 1 and 2 as well as the result storage holding value 3, the CPU just do the adding job by taking 1 and 2 from storage add them and put back to storage for result.
       
         - Storage usually catagorized by the speed of response, i.e. how fast the CPU can read/write information to it. some will retain information after you remove the power while some will not. I.e. *RAM, Random Accessing Memory* (usually people saying, I have 8G memory in my computer, is actually refering to this) can only hold information when power on, once you turn off the computer, information lost. *HardDisk* (usually people saying Drive C, Drive D) can hold large amount of data and *RETAIN* information even power removed!
+        
+### Why all the BS?
+
+Why wait your time to tell you all these junks? This is because it has hugh relationship with computer programming.
 
