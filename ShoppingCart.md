@@ -5,7 +5,7 @@
 You will need to place those stuff in the folder specified. For this project, put them all in the folder same as the app.js will be ok
 1. ED_1
    - FileName: notebook.js
-   - Location:"./" (i.e. Same folder as this app.js file)
+   - Location:"./" (i.e. Same folder as this app.js file as well as the package.json file, where you run your node command)
    - Description: JavaScript File for storage of configuration related variables. (e.g. token, common variables etc.)
    - I didnt include this notebook.js in this repository, you can create a file with the following content:
    ```
@@ -64,3 +64,18 @@ You will need to place those stuff in the folder specified. For this project, pu
    Access Level >= 250 is GOD!!
    ```
    Clever CEO may already notice, you can edit the GuestBook.json manually, see if you can add yourself as GOD manually in the GuestBook.json file.
+   
+   The reason why not using 1,2,3,4 is to leave room for adding extra *role* in your bot later on, so that you no need to change all the code, say if you want to add a role called *Worker* later, just assign below 175 access level is ok.
+   
+I tested the bot for few times already, but should still have bugs, so you better do more test on it.
+
+## How the Math.Random work
+
+This is to share with you how we generate random Order Tag in our bot. In the function *GenOrderTag* there is a code:
+```
+Math.floor(Math.random() * 999) + 1;
+```
+The function Math.random() will generate a random number range from 0 to 1 (not included 1), therefore, if you want to generate random number within 1000, then you should times the result with 999. Other example is if you want to make a roll dice function, then you can times the Math.random with 6, then you will only get result within 6.
+
+Then we *floor* (remove all decimal) from the random result, you will always get a 998 or below number, so add 1 makes the random result possible to show 999.
+
