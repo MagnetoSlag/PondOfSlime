@@ -19,7 +19,7 @@ You will need to place those stuff in the folder specified. For this project, pu
    - FileName: ShopOrder.json
    - Location:"./" 
    - Description: File holding all order informaion, usually called Order Enrty, or Book of Entry
-   - This is where your shopping cart store order information, I call it *OrderBook*, each order will be called an *OrderEntry* with the following fields:
+   - This is where your shopping cart store order information, it is an **Array** with **Objects**, I call it *OrderBook*, each order will be called an *OrderEntry* as an object stored in the array. While *OderBook* is an object, where *OrderBook.OrderNumber[]* is an array. (well enough for confusion). Just to know each order consist of the following fields:
      - 1. ***Order Tag***  : This is the random number generated and you name it as OrderID before, but I call it Order Tag here
      - 2. ***Particulars***: The item ordered in the order entry
      - 3. ***Customer***   : User who place this order
@@ -28,7 +28,20 @@ You will need to place those stuff in the folder specified. For this project, pu
      - You can manually edit the ShopOrder.json with the following format:
      ```
      {OrderNumber:[
-         {
+         {Order Entry # 1},
+         {Order Entry # 2},
+         {Order Entry # 3}
+         ]}
+     ```
+     notice that last Order Entry has no ',' at the end.
+     In life file, should be look like this:
+     ```
+     {"OrderNumber":[
+         {"OrderTag":1, "Particulars":"Coke","Customer":"SlimeFrog","FromServer":"SlimeKingdom","Status":"unclaim"}
+         ]
+     }
+     ```
+     so you can edit the order informaton manaully without calling the bot or discord. Just edit the file will be ok
 3. ED_3
    - FileName: GuestBook.json
    - Location: "./"
