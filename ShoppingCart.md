@@ -79,3 +79,18 @@ The function Math.random() will generate a random number range from 0 to 1 (not 
 
 Then we *floor* (remove all decimal) from the random result, you will always get a 998 or below number, so add 1 makes the random result possible to show 999.
 
+## Command ***feedback*** and command ***orderdeliver***
+
+Sorry I didnt write those command and I would like to leave it for you to explore. Because I am not sure how you want to handle those two command, we can do it together if you dont mind.
+
+Also, there is a command called ***prototype***, that is a prototype command, which has accesslevel check and then you just simply replace the code with your own will be fine.
+
+The logic for all command is simple.
+
+1. Check the accesslevel for the user and then decide allow to execute commmand or not
+2. Check rather the OrderBook has such order tag (order ID) then execute command
+
+Note:
+1. I didnt use some build-in function in javascript because I want you to have better understand of how the code works, some ***Professioinal*** programmer may term that as ugly code, well I dont care about that because when down to CPU level, most code works the same way.
+2. Feel free to ask me for anything you dont understand, once you understand how the code works, then you can unlock the unlimited possibility with your discord bot!
+3. Most important part ~~~~~~~~~~~~~ ***HAVE FUN!!!*** ~~~~~~~~~~~~~~~~
