@@ -46,3 +46,21 @@ You will need to place those stuff in the folder specified. For this project, pu
    - FileName: GuestBook.json
    - Location: "./"
    - Description: File holding access right/permission information
+   - This is bascially a file storing all the user permission in your bot program/application whichever you call it. This is **Object** file only, not an array with the following format:
+   ```
+   {UserName:AccessLevel,UserName:AccessLevel,UserName:AccessLevel}
+   ```
+   also the last entry has no "," following it.
+   Real life example will be:
+   ```
+   {"Slime":100,"SlimeFrog":200}
+   ```
+   The bot, use a no. called *Access Level* to determin rather a user have access to certain command. Currently:
+   ```
+   Access Level < 100 is Black Listed User
+   Access Level >= 100 is Normal User -- (new user will auto assign this Access Level)
+   Access Level >= 150 is Chef
+   Access Level >= 200 is Admin
+   Access Level >= 250 is GOD!!
+   ```
+   Clever CEO may already notice, you can edit the GuestBook.json manually, see if you can add yourself as GOD manually in the GuestBook.json file.
